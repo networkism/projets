@@ -1,0 +1,3 @@
+[submodule "photos-des-chats"]
+	path = photos-des-chats
+	url = /home/ec2-user/projects/photos-des-chats
