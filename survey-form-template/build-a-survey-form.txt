@@ -1,0 +1,97 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylsheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" width="width=device-width">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">At UserAcquisition, we believe your opinion matters. Please take part in our org-wide survey</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name-label" id="name-label">
+          <input type="text" 
+                  id="name" 
+                  name="name-label" 
+                  placeholder="name" 
+                  required/>Name</label>
+
+         <label for="email-label" id="email-label" >
+           <input type="email"
+                  id="email" 
+                  name="email-label" 
+                  placeholder="email" 
+                  required/>Email</label>
+
+        <label for="number-label" id="number-label" >
+          <input type="number" 
+                  id="number" 
+                  name="number" 
+                  value="number" 
+                  placeholder="number" 
+                  min="10" max="10" 
+                  required/>Number<label>
+      </fieldset>
+      <fieldset>
+        <legend>What is your role at UA?</legend>
+          <select id="dropdown">
+            <option value="">Select one</option>
+            <option value="1" >Junior</option>
+            <option value="2">Senior</option>
+          </select>
+      </fieldset>
+      <fieldset>
+        <legend>How long have you been at UA?</legend>
+        <label>
+          <input type="radio" 
+                 name="length" 
+                 value="1"
+                 checked > 1-3 years</label>
+
+        <label>
+          <input type="radio" 
+                 name="length" 
+                 value="2"> 5-9 years</label>
+
+        <label>
+          <input type="radio" 
+                 name="length" 
+                 value="3"> 10+ years</label>
+      </fieldset>
+      <fieldset>
+        <legend>Pick the best 2 description of your personality</legend>
+        <label for="gleeful">
+          <input type="checkbox" 
+                 id="personality"
+                 value="1"/> I'm often gleeful </label>
+        <label for="facts">
+          <input type="checkbox" 
+                 id="personality"
+                 value="2"/> Let's talk facts </label>
+        <label for="smile">
+         <input type="checkbox" 
+                 id="personality"
+                 value="3"/> Smile more </label>
+        <label for="textarea">
+      </fieldset>
+      <fieldset>
+        <textarea name="comments" rows="3" cols="30" placeholder="All comments here..."></textarea>
+      </fieldset>
+      <input action="" type="submit" value="Submit" id="submit"/> 
+    </form>
+  </body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
